@@ -1,0 +1,80 @@
+Enter Login Name:  OR
+Enter in UserID: 
+
+
+
+Welcome to the GJMB Library! 
+
+Please select an option to continue:
+	1. Login by Name
+	2. Login by Username
+	3. Create an Account
+	
+//_____________________________________________________//
+
+
+Thank you for logging in, 
+
+Please select an option to continue:
+	1. Account Information
+	2. Find a Book
+	3. Checkout a Book
+	4. Return a Book
+	5. Exit
+	
+	
+//_____________________________________________________//
+
+Account Information:
+---------------------
+Name: 
+UserID: 
+
+Rented Books: 
+	- "Title" : This book is due by: 11/22/22
+	- "Title" : This book is due by: 22/33/22
+	
+	
+//________________________________________________________//
+//			CREATE AN ACCOUNT							  //
+//________________________________________________________//
+
+
+Create an Account:
+-----------------------------------------------------
+Enter the following information to create an account: 
+Full Name: 
+UserID: 
+Address: 
+Phone Number: 
+
+Your account has been created successfully!
+
+
+
+//_________________________________________________________//
+//				FIND A BOOK 								//
+//________________________________________________________//
+
+Find a Book: 
+------------------------------------------------
+Enter the following information to find a book: 
+
+Title: 
+OR
+Author: 
+
+
+The following book(s) have been found: 
+
+
+Sorry, we do not have that book in our system.  
+
+
+
+//_________________________________________________________//
+//				RENT A BOOK 					        	//
+//________________________________________________________//
+
+ 
+ 
