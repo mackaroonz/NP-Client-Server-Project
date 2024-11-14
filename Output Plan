@@ -1,5 +1,5 @@
 //______________________________________________________//
-//		INITIAL SCREEN				//
+//		INITIAL SCREEN		(Jason)		//
 //______________________________________________________//
 
 
@@ -13,7 +13,7 @@ Please select an option to continue:
 
 
 //______________________________________________________//
-//		AFTER LOGIN				//
+//		AFTER LOGIN MENU 	(Grace)		//
 //______________________________________________________//
 
 
@@ -28,7 +28,7 @@ Please select an option to continue:
 	
 	
 //______________________________________________________//
-//		ACCOUNT INFORMATION			//
+//		ACCOUNT INFORMATION	(Belinda)	//
 //______________________________________________________//
 
 Account Information:
@@ -37,12 +37,12 @@ Name:
 UserID: 
 
 Rented Books: 
-	- "Title" : This book is due by: 11/22/22
-	- "Title" : This book is due by: 22/33/22
-	
+	1.) "Title" : This book is due by: 11/22/22
+	2.) "Title" : This book is due by: 22/33/22
+	3.) NULL = No books rented
 	
 //________________________________________________________//
-//			CREATE AN ACCOUNT		  //
+//			CREATE AN ACCOUNT (Belinda)	  //
 //________________________________________________________//
 
 
@@ -98,3 +98,19 @@ The following book(s) have been found:
 Would you like to checkout this book (Y/N)? 
 
 
+
+
+//______________________________________________________//
+//		RETURN A BOOK 				//
+//______________________________________________________//
+
+//Call AccountInformation()
+
+Select which book you would like to return: 
+
+
+
+
+
+(Magda)
+Rand generator for userID and bookId
