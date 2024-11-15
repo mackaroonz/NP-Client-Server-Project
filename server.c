@@ -30,7 +30,28 @@ int get_user_id(char name[]) {
     
 
 // Function to display user account information, including rented books
+// Belinda
 void display_account_info(int client_socket,char name[]) {
+    int user_id = get_user_id(name);
+    if (user_id == -1) {
+        write(client_socket, "User not found.\n", 17);
+        
+    printf("ACCOUNT INFORMATION:\n");
+    printf("-------------------------------------------\n")
+    printf("Name: %s, %s\n", user.firstName, user.lastName);
+    printf("User ID: %d", user.userID);
+     
+    if (user.booksRentedCount > 0) {
+        printf("You currently have the following books rented:\n");
+        for (int i = 0; i < user.booksRentedCount; i++) {
+             //PRINT RENTED BOOK INFORMATION
+        }
+    }
+    else {
+    printf("You currently have no books rented.\n");
+    } 
+} // end display_account_info() function
+
 
 // Function to display all books in the bookstore
 void find_books(int client_socket) {
